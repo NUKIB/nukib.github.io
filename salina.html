@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GovCERT.CZ challenge</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: 'Fira Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(fKFkRkzXRJqcHSLAj5EDoaW.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        @font-face {
+            font-family: 'Fira Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(PsL1imUEvveXWE57vNU5cwvEF9Re2a.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        body {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          /* FLAG-TAKY-LEHKE */
+            background-color: rgb(39, 39, 39);
+            font-family: 'Fira Sans', sans-serif;
+            color: white;
+            width: 60em;
+            margin: 0 auto;
+            padding: 0 2em;
+            line-height: 1.44;
+        }
+
+        body::after {
+            content: "\001F\008B\0008\0000\00AA\007C\0076\0061\0000\00FF\0005\0080\0041\0009\0000\0000\0008\0003\0013\0019\0042\0050\000F\00C1\00C7\00DE\00F6\000F\0032\00E6\0092\00E0\0057\00EA\0032\0005\006F\0075\00F3\000C\0000\0000\0000";
+            font-size: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 40px;
+        }
+
+        pre#challenge {
+            font-family: 'Fira Sans', sans-serif;
+            text-align: center;
+            border: 1px solid #dee2e6;
+            padding: 1.5rem;
+            border-radius: .25rem;
+            margin: 1em auto;
+            font-size: 14px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            background-color: rgb(20, 20, 20);
+        }
+
+        a {
+            color: white;
+        }
+
+        ul li {
+            margin-left: 2em;
+        }
+
+        p {
+            margin-top: 1em;
+        }
+
+        .gdpr {
+            margin-top: 5em;
+            margin-bottom: 5em;
+            font-size: 9px
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 100px">
+        <img src="logo-kariera2.png" width="150" height="150" alt="Logo NÚKIB" title="Logo NÚKIB" id="logo">
+    </div>
+
+    <h1>GovCERT.CZ challenge: máš na to?</h1>
+
+    <p style="text-align: center; font-weight: bold">V souvislosti s touto stránkou jsme skryli několik flagů.</p>
+
+    <p>Tady je první:</p>
+    <pre id="challenge" title="CyberChef je tvůj přítel.">NDYgNGMgNDEgNDcgMmQgNTQgNGYgNDggNGMgNDUgMmQgNGEgNDUgMmQgNGEgNDUgNGUgMmQgNWEgNDEgNDMgNDEgNTQgNDUgNGI=</pre>
+    <p><b>Dokážeš je všechny najít?</b></p>
+
+    <p><b>Tohle je cvičení. Ale pokud chceš řešit reálné problémy a bránit kyberprostor České republiky, tak aktuálně hledáme v Brně na GovCERT.CZ tyto specialisty:</b></p>
+    <ul>
+        <li><a href="https://www.nukib.cz/cs/o-nukib/kariera/incident-handler/" target="_blank">Incident Handler</a> &ndash; budeš řešit ty nejvážnější kybernetické bezpečností incidenty.</li>
+        <li><a href="https://www.nukib.cz/cs/o-nukib/kariera/bezpecnostni-analytik-analyticka/" target="_blank">Bezpečnostní analytik/analytička</a> &ndash; budeš vymýšlet, jak zvýšit kybernetickou bezpečnost Česka.</li>
+        <li><a href="https://www.nukib.cz/cs/o-nukib/kariera/forenzni-analytik/" target="_blank">Forenzní analytik</a> &ndash; budeš odhalovat, jak se útočník do systému dostal a jaké činnosti tam prováděl.</li>
+        <li><a href="https://www.nukib.cz/cs/o-nukib/kariera/analytik-sitoveho-provozu/?ex=RkxBRy1leGZpbHRyYWNlLWRhdC1qZS1tb3puYS1pLXByZXMtZ2V0LXBhcmFtZXRyLW5hcHJpa2xhZC12LW9ka2F6dS0temt1cy1wcmFjaS12LU9BU1Ah" target="_blank">Analytik síťového provozu</a> &ndash; budeš vyšetřovat útoky a hledat škodlivé aktivity v síťových záznamech.</li>
+        <li><a href="https://www.nukib.cz/cs/o-nukib/kariera/penetracni-tester/" target="_blank">Penetrační tester</a> &ndash; budeš prolamovat ochranu důležitých systémů státu.</li>
+    </ul>
+    <p>Našel jsi aspoň jeden flag? Pošli je spolu s motivačním dopisem a CV na <a href="mailto:kariera@nukib.cz">kariera@nukib.cz</a>, případně se podívej na <a href="https://kariera.nukib.cz">další otevřené pozice</a>. Úplně se ti nedařilo, ale myslíš, že se i tak u nás neztratíš? Ozvi se nám i tak. Pokud ještě nehledáš zaměstnání, nevadí. Můžeš k nám přijít i <a href="https://www.nukib.cz/cs/o-nukib/kariera/staze-pro-studenty/">na stáž!</a></p>
+
+    <p>GovCERT.CZ je součást Národního úřadu pro kybernetickou a informační bezpečnost a zajišťuje bezpečnost nejkritičtějších systémů v České republice. Když přestane fungovat třeba nemocnice kvůli ransomwarovému útoku, jedeme tam. Pravidelně se taky umisťujeme na předních místech v mezinárodních cvičeních pořádaných NATO. A protože kyberprostor nemá hranice, spolupracujeme s našimi partnery nejen z 🇨🇿 a 🇪🇺, ale taky z 🇺🇸 🇰🇷 🇹🇼 🇦🇺 nebo 🇮🇱.</p>
+
+    <p class="gdpr">Vaše osobní údaje budou zpracovány Národním úřadem pro kybernetickou a informační bezpečnost (NÚKIB), jakožto správcem osobních údajů, výhradně pro účely provedení výběrového řízení. Poskytnuté osobní údaje jsou součástí spisu výběrového řízení a jsou v něm uloženy po dobu nezbytně nutnou. Flag-hledame-i-pravniky. Máte právo požadovat přístup k osobním údajům, a pokud zjistíte nebo se domníváte, že správce provádí zpracování osobních údajů, které je v rozporu s ochranou Vašeho soukromého a osobního života nebo v rozporu se zákonem, zejména jsou-li osobní údaje nepřesné s ohledem na účel zpracování, můžete vznést námitku proti jejich zpracování a požadovat, aby správce nebo zpracovatel odstranil takto vzniklý stav. Zejména se může jednat o provedení opravy, omezení zpracování, nebo výmaz osobních údajů.</p> <div style="color: rgb(39, 39, 39); position: absolute; left: 0; top: 0; font-size: 15px">&#70;&#76;&#65;&#71;&#45;&#80;&#82;&#73;&#83;&#78;&#69;&#45;&#84;&#65;&#74;&#78;&#69;</div>
+
+    <p style="font-size: 9px; text-align: center">Verze: 464c4147-2d4e-454e-4954-4f2d55554944</p>
+
+    <script>
+        /* Je to jednodušší, než se může zdát */
+        function _0x34e8(){var _0x55ffa1=['WPritCozgmkSWPFdOgFdMbqx','dhJcUCouWOJcR8kbW4LSESoApSkz','W5WZiCkYW6/cI3ykWPpcIKJdGSoHWO4','WQbKW7JdRCovxmogWRfrWOmIWP3cHW','W6ecr00GW5/cTCkNpSoBAmkWWR0','W5/cG3ZdMLhdNCoF','WONdHZupzcJdGSkyW7PZk8kS','WPeLeSoPW79tESkQWQdcP1BdI1a','W5S3imkZW6ZcHNj4WRxcR0pdRSod','WPHGWOtcHu1oWRa','W5HrW584jba4fCkQWOXmW6VdNhC','WPapWPBcISkXD2tcUmo5jYddQ8kG','E8kpW5yzm1fy','ueW6W4ddICkCW78','WQDRW7JdPSoxu8ohWRDrWQq/WQ3cLa','WQqTrSoeWQlcILtdJNPEW6LIW5NcGG','BCo+W54NhvCWwSkEWONcKITnua','vc1KWOFcN8oXWQ80W4VdG8kyWOSV'];_0x34e8=function(){return _0x55ffa1;};return _0x34e8();}function _0x5367(_0x50a264,_0x5e1af8){var _0x34e86b=_0x34e8();return _0x5367=function(_0x5367de,_0x422608){_0x5367de=_0x5367de-0x69;var _0x44abc7=_0x34e86b[_0x5367de];if(_0x5367['OkQNUq']===undefined){var _0x485df2=function(_0x20adb7){var _0x8ae6c8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x545931='',_0x10a852='';for(var _0x29581e=0x0,_0xdb8219,_0x11a6cb,_0x47f096=0x0;_0x11a6cb=_0x20adb7['charAt'](_0x47f096++);~_0x11a6cb&&(_0xdb8219=_0x29581e%0x4?_0xdb8219*0x40+_0x11a6cb:_0x11a6cb,_0x29581e++%0x4)?_0x545931+=String['fromCharCode'](0xff&_0xdb8219>>(-0x2*_0x29581e&0x6)):0x0){_0x11a6cb=_0x8ae6c8['indexOf'](_0x11a6cb);}for(var _0x3241ff=0x0,_0x42c43b=_0x545931['length'];_0x3241ff<_0x42c43b;_0x3241ff++){_0x10a852+='%'+('00'+_0x545931['charCodeAt'](_0x3241ff)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x10a852);};var _0x53f590=function(_0x5deb15,_0x169b6c){var _0x1f0668=[],_0x362511=0x0,_0x2453bd,_0x216ecc='';_0x5deb15=_0x485df2(_0x5deb15);var _0x4e22fd;for(_0x4e22fd=0x0;_0x4e22fd<0x100;_0x4e22fd++){_0x1f0668[_0x4e22fd]=_0x4e22fd;}for(_0x4e22fd=0x0;_0x4e22fd<0x100;_0x4e22fd++){_0x362511=(_0x362511+_0x1f0668[_0x4e22fd]+_0x169b6c['charCodeAt'](_0x4e22fd%_0x169b6c['length']))%0x100,_0x2453bd=_0x1f0668[_0x4e22fd],_0x1f0668[_0x4e22fd]=_0x1f0668[_0x362511],_0x1f0668[_0x362511]=_0x2453bd;}_0x4e22fd=0x0,_0x362511=0x0;for(var _0x6ede0=0x0;_0x6ede0<_0x5deb15['length'];_0x6ede0++){_0x4e22fd=(_0x4e22fd+0x1)%0x100,_0x362511=(_0x362511+_0x1f0668[_0x4e22fd])%0x100,_0x2453bd=_0x1f0668[_0x4e22fd],_0x1f0668[_0x4e22fd]=_0x1f0668[_0x362511],_0x1f0668[_0x362511]=_0x2453bd,_0x216ecc+=String['fromCharCode'](_0x5deb15['charCodeAt'](_0x6ede0)^_0x1f0668[(_0x1f0668[_0x4e22fd]+_0x1f0668[_0x362511])%0x100]);}return _0x216ecc;};_0x5367['BcurTo']=_0x53f590,_0x50a264=arguments,_0x5367['OkQNUq']=!![];}var _0x533c33=_0x34e86b[0x0],_0x199a1d=_0x5367de+_0x533c33,_0x19d9d2=_0x50a264[_0x199a1d];return!_0x19d9d2?(_0x5367['bgWAco']===undefined&&(_0x5367['bgWAco']=!![]),_0x44abc7=_0x5367['BcurTo'](_0x44abc7,_0x422608),_0x50a264[_0x199a1d]=_0x44abc7):_0x44abc7=_0x19d9d2,_0x44abc7;},_0x5367(_0x50a264,_0x5e1af8);}var _0x1c9d14=_0x5367;(function(_0x57b084,_0x14997b){var _0x2ab664=_0x5367,_0x141e12=_0x57b084();while(!![]){try{var _0x4c83ef=-parseInt(_0x2ab664(0x72,'33h&'))/0x1+parseInt(_0x2ab664(0x75,'B7s*'))/0x2*(-parseInt(_0x2ab664(0x74,'Pj0W'))/0x3)+parseInt(_0x2ab664(0x70,'FV7d'))/0x4*(parseInt(_0x2ab664(0x79,'YHAf'))/0x5)+-parseInt(_0x2ab664(0x73,'or7]'))/0x6+-parseInt(_0x2ab664(0x6f,'Z*S['))/0x7+-parseInt(_0x2ab664(0x6a,'Kbtr'))/0x8+parseInt(_0x2ab664(0x76,'LIWm'))/0x9;if(_0x4c83ef===_0x14997b)break;else _0x141e12['push'](_0x141e12['shift']());}catch(_0x28c476){_0x141e12['push'](_0x141e12['shift']());}}}(_0x34e8,0xd9da8),console['log'](_0x1c9d14(0x69,'^HyP')));
+    </script>
+
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- KCgiezR9ezJ9ezV9ezZ9ezB9ezF9ezN9Ii1mJ1BTT0JGVVMnLCdDQVRFRF9GJywncicsJ0xBR30nLCdXJywnaXRlLScsJ2hvc3QgRkxBR3tUSElTX0lTXycpKSB8ICYoKGdWICcqTWRyKicpLk5BbUVbMywxMSwyXS1KT0luJycp -->

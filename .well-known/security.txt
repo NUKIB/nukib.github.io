@@ -1,0 +1,13 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+Contact: mailto:cert@nukib.cz
+Encryption: https://www.nukib.cz/download/kontakty/cert_pub.asc
+Hiring: https://kariera.nukib.cz
+Preferred-Languages: cs, en
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (MingW32)
+aW1wb3J0IGJhc2U2NAoKZGVmIGhleF90b19iYXNlNjQoZGF0YTogc3RyKSAtPiBzdHI6CglyYWlz
+ZSBOb3RJbXBsZW1lbnRlZEVycm9yCgpkZWYgYmFzZTY0X3RvX3N0cmluZyhkYXRhOiBzdHIpIC0+
+IHN0cjoKCXJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCmZsYWdfZW5jb2RlZCA9ICc1MjZiNzg0
+MjUyMzM3NDRmNTY1NTc0NGE1MTY5MzE1MTU1NmI0NjQ0NTI1MzMwNzc0ZDQ0NjQzOScKCg==
+-----END PGP SIGNATURE-----
